@@ -1,0 +1,10 @@
+
+<% if Setting.plugin_prologinid_connect[:oauth_authentication] %>
+  <div style="text-align: center;">
+    <%= link_to prologinid_login_path(:back_url => back_url) do %>
+      <%= button_tag :class => 'button-login' do %>
+        <%= content_tag :div, "Connexion avec ProloginID", :class => 'button-login-text', :style => 'padding: 6px 12px;' %>
+      <% end %>
+    <% end %>
+  </div>
+<% end %>

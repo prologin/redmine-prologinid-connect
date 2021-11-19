@@ -1,0 +1,5 @@
+en:
+  notice_unable_to_obtain_credentials: "ProloginID a renvoyé des données incomplètes"
+  notice_access_denied: "ProloginID a renvoyé une erreur"
+  notice_not_authorized_to_access_application: "Vous n'êtes pas autorisé à utiliser cette application. Contactez votre gestionnaire CANIF."
+  local_signin_not_enabled: "Accès refusé: Veuillez vous connecter avec ProloginID."

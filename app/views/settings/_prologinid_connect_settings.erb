@@ -1,0 +1,28 @@
+<p>
+  <label>Client ID:</label>
+  <%= text_field_tag 'settings[client_id]', @settings[:client_id] %>
+</p>
+<p>
+  <label>Client Secret:</label>
+  <%= text_field_tag 'settings[client_secret]', @settings[:client_secret] %>
+</p>
+<p>
+  <label>Token Endpoint URL</label>
+  <%= text_field_tag 'settings[token_endpoint_url]', @settings[:token_endpoint_url] %>
+</p> 
+<p>
+  <label>Authorize Endpoint URL</label>
+  <%= text_field_tag 'settings[authorize_endpoint_url]', @settings[:authorize_endpoint_url] %>
+</p>
+<p>
+  <label>Userinfo Endpoint URL</label>
+  <%= text_field_tag 'settings[userinfo_endpoint_url]', @settings[:userinfo_endpoint_url] %>
+</p>
+<p>
+  <label>Enable OAuth2 authentication</label>
+  <%= check_box_tag "settings[oauth_authentication]", true, @settings[:oauth_authentication] %>
+</p>
+<p>
+  <label>Keep local authentication enabled</label>
+  <%= check_box_tag "settings[keep_local_authentication]", true, @settings[:keep_local_authentication] %>
+</p>
